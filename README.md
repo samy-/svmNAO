@@ -5,3 +5,6 @@ SvmNao is a set of activities recognition libraries allowing the robot NAO to co
 
 ## Wiki of the projet : 
 [https://github.com/no-ox/svmNAO/wiki](https://github.com/no-ox/svmNAO/wiki)
+
+## Members :
+HUILON He, PAN Siqun, ROUALDES Fabien and SKHIRI Sami.
