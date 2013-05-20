@@ -1,0 +1,23 @@
+#ifndef KMEANS_H
+#define KMEANS_H
+
+using namespace std;
+
+class Kmeans {
+
+
+
+public :	
+int nao-kmeans(int argc, char **argv);
+void getArgs(int argc, char **argv);	// get command-line arguments
+void printSummary(const KMlocal& theAlg,const KMdata& dataPts,KMfilterCenters& ctrs);	
+bool readPt(istream& in,KMpoint& p);
+void laptevParser(istream& in, const KMdata& d, int *nPts);       
+void trainingMeansParser(istream& in,const KMfilterCenters& ctrs);
+void printPt(ostream& out,const KMpoint& p);
+
+
+
+
+};
+#endif

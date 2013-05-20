@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="bumper" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\.cache\;CMake Files\..\..\..\.cache\qi\;CMake Files\..\..\..\.cache\qi\toolchains\;CMake Files\..\..\..\.cache\qi\toolchains\nao-toolchain\;CMake Files\..\..\Nao\;CMake Files\..\..\Nao\linux32-nao-geode-cross-toolchain-1.14.1\;CMake Files\..\..\Nao\qibuild\;CMake Files\..\..\Nao\qibuild\qibuild-master\;CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\;CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\;CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\;CMake Files\build-nao-toolchain\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="bumper">
+         <Option output="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/sdk/lib/naoqi/libbumper.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/alsoap" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/boost-1_48" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 bumper" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="bumper/fast">
+         <Option output="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/sdk/lib/naoqi/libbumper.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/alsoap" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/boost-1_48" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 bumper/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/bumper.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/main.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/bumper.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../../.cache/qi/toolchains/nao-toolchain/toolchain-nao-toolchain.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\.cache\qi\toolchains\nao-toolchain\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/linux32-nao-geode-cross-toolchain-1.14.1/cross-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\linux32-nao-geode-cross-toolchain-1.14.1\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/codegen.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/perf.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/autostrap.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/dependencies.cmake">
+          <Option virtualFolder="CMake Files\build-nao-toolchain\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="stip" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\.cache\;CMake Files\..\..\..\.cache\qi\;CMake Files\..\..\..\.cache\qi\toolchains\;CMake Files\..\..\..\.cache\qi\toolchains\nao-toolchain\;CMake Files\..\..\Nao\;CMake Files\..\..\Nao\linux32-nao-geode-cross-toolchain-1.14.1\;CMake Files\..\..\Nao\qibuild\;CMake Files\..\..\Nao\qibuild\qibuild-master\;CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\;CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\;CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\;CMake Files\build-nao-toolchain\;CMake Files\libKmeans\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stip">
+         <Option output="/home/sami/cassiopee/worktree/stip/build-nao-toolchain/sdk/lib/naoqi/libstip.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/alsoap" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/boost-1_48" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/soap" />
+            <Add directory="/home/sami/cassiopee/worktree/stip/libKmeans" />
+            <Add directory="/home/sami/cassiopee/worktree/stip/libKmeans/." />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 stip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stip/fast">
+         <Option output="/home/sami/cassiopee/worktree/stip/build-nao-toolchain/sdk/lib/naoqi/libstip.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/alsoap" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/boost-1_48" />
+            <Add directory="/home/sami/cassiopee/Nao/linux32-nao-geode-cross-toolchain-1.14.1/sysroot/usr/include/soap" />
+            <Add directory="/home/sami/cassiopee/worktree/stip/libKmeans" />
+            <Add directory="/home/sami/cassiopee/worktree/stip/libKmeans/." />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 stip/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="kmeans">
+         <Option output="/home/sami/cassiopee/worktree/stip/build-nao-toolchain/sdk/lib/libkmeans.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/sami/cassiopee/worktree/stip/libKmeans/." />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/Makefile&quot;  VERBOSE=1 kmeans" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="kmeans/fast">
+         <Option output="/home/sami/cassiopee/worktree/stip/build-nao-toolchain/sdk/lib/libkmeans.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/sami/cassiopee/worktree/stip/libKmeans/." />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/Makefile&quot;  VERBOSE=1 kmeans/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/cmdline.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/cvutil.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/harrisbuffer.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/kmeans/kmeans.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KCtree.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KCutil.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KM_ANN.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMcenters.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMdata.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMeans.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMfilterCenters.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMlocal.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMrand.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMterm.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/main.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/msharrisbuffer.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/pcheader.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/stbuffer.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/stip.cpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/cmdline.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/cvutil.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/harrisbuffer.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/kmeans/kmeans.hpp">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KCtree.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KCutil.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KM_ANN.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMcenters.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMdata.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMeans.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMfilterCenters.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMlocal.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMrand.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/src/KMterm.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/msharrisbuffer.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/pcheader.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/stbuffer.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/stip.h">
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../../.cache/qi/toolchains/nao-toolchain/toolchain-nao-toolchain.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\.cache\qi\toolchains\nao-toolchain\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/linux32-nao-geode-cross-toolchain-1.14.1/cross-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\linux32-nao-geode-cross-toolchain-1.14.1\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/codegen.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/perf.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/autostrap.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/../../Nao/qibuild/qibuild-master/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\Nao\qibuild\qibuild-master\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/build-nao-toolchain/dependencies.cmake">
+          <Option virtualFolder="CMake Files\build-nao-toolchain\" />
+      </Unit>
+      <Unit filename="/home/sami/cassiopee/worktree/stip/libKmeans/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\libKmeans\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

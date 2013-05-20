@@ -1,0 +1,1 @@
+/home/sami/cassiopee/worktree/bumper/build-nao-toolchain/CMakeFiles/bumper.dir

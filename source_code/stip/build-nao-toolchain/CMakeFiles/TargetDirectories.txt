@@ -1,0 +1,2 @@
+/home/sami/cassiopee/worktree/stip/build-nao-toolchain/libKmeans/CMakeFiles/kmeans.dir
+/home/sami/cassiopee/worktree/stip/build-nao-toolchain/CMakeFiles/stip.dir

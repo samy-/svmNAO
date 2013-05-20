@@ -1,0 +1,23 @@
+/**
+ * Copyright (c) 2011 Aldebaran Robotics
+ */
+
+#include "lib_1.h"
+#include <alvalue/alvalue.h>
+#include <alcommon/alproxy.h>
+#include <alcommon/albroker.h>
+#include <qi/log.hpp>
+
+Lib_1::Lib_1(boost::shared_ptr<AL::ALBroker> broker,const std::string& name):
+    AL::ALModule(broker, name)
+{
+  //description du module Bumper pour que ça apparait dans la page web
+  setModuleDescription("This module presents h.");
+
+
+}
+
+Lib1::~Lib1() {
+}
+         
+}

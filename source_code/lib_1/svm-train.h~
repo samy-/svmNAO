@@ -1,0 +1,7 @@
+#ifndef _SVM_TRAIN_H_
+#define _SVM_TRAIN_H_
+//void print_null(const char *s);
+//void exit_input_error(int line_num);
+int generate_model(int argc, char **argv);
+#endif
+
